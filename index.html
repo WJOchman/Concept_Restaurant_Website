@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concept Restaurant Page</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap">
+  </head>
+
+  <body>
+
+    <!---------- Header Navigation ---------->
+    <header class="sticky">  
+      <a href="#" class="logo">Food<span>.</span></a>
+      <ul class="navigation">
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#expert">Expert</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+
+    <!---------- Home ---------->
+    <section class="banner" id="banner"> 
+      <div class="content">
+        <h2>Always Choose Good</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis at praesentium dolores architecto consequuntur impedit ea suscipit repellendus voluptates vel similique, libero sit reiciendis cupiditate nulla est iste nostrum provident repellat alias, quidem explicabo tempore aut!</p>
+        <a href="#" class="btn">Our Menu</a>
+      </div>
+    </section>
+
+    <!---------- About ---------->
+
+    <section class="about" id="about">
+      <div class="row">
+        <div class="col50">
+          <h2><span>A</span>bout Us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus sint sequi quisquam neque qui expedita ipsa quam vero amet voluptatem, aut delectus assumenda beatae maiores consequuntur dolorem voluptate possimus facere! Odio cupiditate assumenda eos doloribus minima voluptates quo recusandae unde explicabo, molestiae sequi, voluptatum vitae soluta doloremque impedit quia ducimus.<br><br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque adipisci facere, libero illo impedit amet veniam aliquid, ut, id est quam! Deserunt obcaecati asperiores soluta odio fuga ducimus pariatur provident enim, voluptatibus aliquam optio harum aliquid. Sint fugit et totam id, ex sed ab asperiores? Officia cupiditate quaerat voluptas. Perspiciatis.</p>
+        </div>
+        <div class="col50">
+          <div class="imgBx">
+            <img src="./images/img1.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---------- JavaScript For Navigation Bar ---------->
+    
+    <script type="text/javascript">
+      window.addEventListener('scroll', function() {
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+      });
+    </script>
+
+  </body>
+
+</html>
