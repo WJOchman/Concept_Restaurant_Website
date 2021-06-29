@@ -393,6 +393,7 @@ section {
 }
 
 /*--------------- Media ---------------*/
+/*--------------- This part makes no sense ---------------*/
 
 @media (max-width: 991px) {
   header,
