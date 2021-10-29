@@ -1,6 +1,6 @@
 # Concept_Restaurant_Website
 
-This needs to be redone
+This needs to be done again
 
 I do not own this website, this is tutorial which I have followed to practice my HTML and CSS knowledge on a more "real-world" example.
 
